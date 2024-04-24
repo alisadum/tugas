@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Alisa</a>
+
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="Home">
+        <div class="home-content">
+            <h1>Hi, i'm Alisa</h1>
+            <h3>Student</h3>
+        </div>
+      
+
+        <div class="home-sci">
+            <a href="https://www.discord.com/bubadum"><i class='bx bxl-discord-alt'></i></a>
+            <a href="https://t.me/dtilang"><i class='bx bxl-telegram' ></i></a>
+            <a href="https://www.instagram.com/aoolsan/"><i class='bx bxl-instagram' ></i></a>
+    
+
+        </div>
+
+    </section>
+
+    <section id="About">
+      <div class="container-fluid">
+          <div class="About-title">
+              <h1>About <span>Me</span></h1>
+          </div>
+          <div class="row datar-About d-flex justify-content-center ">
+              <div class="col-lg-6 col-md-6 isi-card d-flex justify-content-center">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title">Me</h5>
+                          <p class="card-text">Hello, my name is Alisa Normalinda, I am usually called alisa or lisa.
+                            I am 16 years old. I am a 10th grade student at SMK Taruna Bhakti.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 col-md-6 isi-card d-flex justify-content-center">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title">My Hobby</h5>
+                          <p class="card-text">my hobby is listening to music, I like to listen to a lot of songs,
+                             I listen to all genres, one of my favorite genres is rnb, and my favorite singer is sza.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+      <section>
+
+        <section id="Skills">
+            <div class="container-fluid">
+              <div class="title-Skills">
+                <h1>Skills <span>& Tools</span></h1>
+              </div>
+              <div class="row gambar-Skills">
+                <div class="col-lg-3 col-md-6">
+                  <div class="main-card">
+                    <img src="img/flogo.png" class="rounded" alt="A Logo">
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="main-card">
+                    <img src="img/hlogo.png" class="rounded" alt="B Logo">
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="main-card">
+                    <img src="img/clogo.png" class="rounded" alt="C Logo">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+<section id="Contact">
+  <div class="container">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+      </div>
+      <form id="contact-form" method="POST" action="send_email.php">
+          <div class="form-group">
+            <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+      </form>
+  </div>
+</section>
+
+
+            
+   </body>
+  </html>
